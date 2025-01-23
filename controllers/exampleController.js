@@ -1,4 +1,4 @@
-const examples = require("../models/examples");
+const examples = require("../db/examples");
 const CustomError = require("../classes/CustomError");
 
 function index(req, res) {
